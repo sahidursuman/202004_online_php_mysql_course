@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQUery Example</title>
+</head>
+<body>
+    <h1>Programming Language List</h1>
+
+    <ul class="language"></ul>
+
+
+    <script src="js/jquery.js"></script>
+
+    <script>
+
+        $(document).ready(function() {
+            console.log('Hello')
+            let langArr = ['PHP', 'MySQL', 'JavaSccript'];
+
+            for(let i = 0; i <= 2; i++) {
+                $('.language').append(`<li>${langArr[i]}</li>`);
+            }
+        });
+    
+    </script>
+    
+</body>
+</html>
