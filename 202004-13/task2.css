@@ -1,0 +1,26 @@
+*{
+	margin:auto;
+	padding:auto;
+}
+body{
+	background-color:#6a5acd;
+	border: 2px solid black;
+	padding:400px;
+	text-align:center;
+	
+	
+}
+.table1{
+	width:650px;
+	text-align:center;
+	margin:0auto;
+	background-color:#ddd;
+	
+}
+.table,th,td{
+	border-collapse:collapse;
+	border:1px solid red;
+}
+.table_left{
+	text-align:left;
+} 
