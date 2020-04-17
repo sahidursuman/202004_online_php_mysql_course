@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>    
+    <title>css_table</title>
+    <style>
+        * {
+          font-family: sans-serif;
+        }
+
+        .header{
+            background-color: #00ccff;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 40px;
+        }
+        .content_table {
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-size: 0.9em;
+          min-width: 400px;
+          border-radius: 5px 5px 0 0;
+          overflow: hidden;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .content_table thead tr {
+          background-color: #00ccff;
+          color: #ffffff;
+          text-align: left;
+          font-weight: bold;
+        }
+
+        .content_table th,
+        .content_table td {
+          padding: 12px 15px;
+        }
+
+        .content_table tbody tr {
+          border-bottom: 1px solid #dddddd;
+        }
+
+        .content_table tbody tr:nth-of-type(even) {
+          background-color: #f3f3f3;
+        }
+
+        .content_table tbody tr:last-of-type {
+          border-bottom: 2px solid #00ccff;
+        }
+
+        .content_table tbody tr.active_row {
+          font-weight: bold;
+          color: #00ccff;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="header">CSS Table</h1>
+    
+    <table class="content_table">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Domenic</td>
+                <td>88,110</td>
+                <td>dcode</td>
+            </tr>
+            <tr class="active_row">
+                <td>2</td>
+                <td>Sally</td>
+                <td>72,400</td>
+                <td>Students</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nick</td>
+                <td>52,300</td>
+                <td>dcode</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kevin</td>
+                <td>64,700</td>
+                <td>Students</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

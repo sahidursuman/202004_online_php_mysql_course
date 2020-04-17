@@ -1,0 +1,26 @@
+/* CSS rules Syntax - selector { property: value } */
+/* example of element selector */
+h1 {
+    color: green;
+}
+
+/* Class Selector Syntax - .selecctor_name { property: value; property: value; } */
+
+.header-color {
+    color: #f67bbb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ID Selector Syntax - #selecctor-name {property: value; } */
+
+#box {
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
+    background-color: green;
+}
+
+h4.list-title {
+    color: white;
+    margin-left: 10px;
+}
