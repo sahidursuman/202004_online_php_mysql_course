@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Function Example</title>
+</head>
+<body>
+    <script>
+
+        greet('Good Evening!!');
+
+        /*
+        JS function syntax without parameter
+        function functionName()
+        {}        
+        */
+
+        function greet(message) {
+            // Template Literal
+            document.write(`
+            
+            <h1>Dear Students</h1>
+            <h2>${message}</h2>
+            <p>Thank you very much for taking this course!!!</p>
+            
+            `);
+        }
+
+        function add(a, b) {
+            let result;
+
+            // caclculate numbers
+            result = a + b;
+            return result;
+        }
+
+        let number1 = 20;
+        let number2 = 40;
+
+        let getResult = add(number1, number2);
+
+        console.log('20 + 40 = ', getResult);
+
+
+    
+
+        
+        
+    </script>
+    
+</body>
+</html>
