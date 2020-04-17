@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            width: 500px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .content h1{
+            color:#007E6E;
+        }
+        .content_table{
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow:0 0 20px rgba(0, 0, 0, 0.15);
+            
+        }
+        .content_table tr th{
+            color:white;
+            padding: 10px;
+            font-size: 20px;
+            background-color: #007E6E;
+
+
+        }
+        .content_table  td{
+            border-bottom: 1px solid #dddddd;
+            text-align: center;
+            font-size: 20px;
+            padding: 12px 15px;
+
+        }
+        .content_table tbody tr:nth-of-type(even){
+            background-color: #f3f3f3;
+            color: #007e6e;
+            font-weight: bold;
+            
+        }
+        .content_table tbody tr:last-of-type{
+            border-bottom: 2px solid #009879;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Styling HTML Table w/css</h1>
+    <table class="content_table">
+        <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Points</th>
+            <th>Team</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Domenic</td>
+            <td>88,110</td>
+            <td>dcode</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sally</td>
+            <td>72,400</td>
+            <td>Students</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+    
+</body>
+</html>
