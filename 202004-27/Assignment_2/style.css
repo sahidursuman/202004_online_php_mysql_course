@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+}
+
+.design_1 tr th{
+
+    background-color: blueviolet;
+    text-align: left;
+    color: white;
+}
+
+.design_1{
+
+
+    border-collapse: collapse;
+    width: 50%;
+    font-size: 0.9em;
+    min-width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.design_1 th, .design_1 td{
+
+    padding: 12px 12px;
+}
+
+.design_1 tbody tr{
+
+    border-bottom: 1px solid;
+}
+.design_1 tbody tr:nth-of-type(even){
+
+    background-color: rgb(223, 223, 223);
+}
+
+.design_1 tbody tr:last-of-type{
+
+    border-bottom: 2px solid blueviolet;
+}
+
+.design_1 tbody tr:nth-of-type(even){
+
+    font-weight: bold;
+    color: blueviolet;
+}
