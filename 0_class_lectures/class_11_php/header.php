@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/demo.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/wall.css" />
     <title>PHP Authentication System</title>
 </head>
 
